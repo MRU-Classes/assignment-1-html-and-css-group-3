@@ -1,0 +1,21 @@
+.contactForm{
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+}
+
+label{
+    display:block;
+    margin-top: 15px;
+    margin-left: 6px;
+}
+
+input, textarea{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+form{
+    background-color: lightgray;
+    border-radius: 8px;
+}

@@ -12,8 +12,9 @@ nav ul li{
 nav ul li a{
     color:black;
     text-decoration: none;
-    padding: 24px 16px;
+    padding: 17px 16px;
     text-align: center;
+  
 }
 
 nav ul li a:hover{
@@ -22,8 +23,17 @@ nav ul li a:hover{
 }
 h1{
     text-align: center;
+    color:white;
 }
 
-*{
-    background-color: rgb(70, 69, 69);
+main, header{
+    background-color: rgb(99, 98, 98);
+}
+.current{
+    background-color: bisque;
+    color: black;
+}
+.top{
+    background-color: grey;
+    overflow: hidden;
 }

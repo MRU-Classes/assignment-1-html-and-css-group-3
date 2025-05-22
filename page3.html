@@ -14,15 +14,17 @@
 
     <body> 
         <header>
-            <h1>Website Name</h1>
+            <h1>codERS</h1>
+            <div class="top">
             <nav>
                 <ul>
                     <li><a href="Welcome.html"> HomePage </a></li>
                     <li><a href="Page2.html"> HTML </a></li>
-                    <li><a href="Page3.html"> Python </a></li>
+                    <li><a class="current" href="Page3.html"> Python </a></li>
                     <li><a href="ContactUs.html"> Contact Us </a></li>
                 </ul>
             </nav>
+            </div>
         </header>
         
         <main>
@@ -65,52 +67,7 @@
                 <p class="intro">
                     We’d love to hear from you! Whether you have a question about Python or need help with a project, feel free to get in touch.
                 </p>
-
-                <form action="mailto:youremail@example.com" method="post">
-                    <label for="subject">Subject:</label>
-                    <input type="text" id="subject" name="subject" required maxlength="100">
-
-                    </br>
-
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="name@example.com" pattern="[^@\\s]+@[^@\\s]+\\.[^@\\s]+" required>
-
-                    </br>
-
-                    <label for="phone">Phone (optional):</label>
-                    <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-
-                    </br>
-
-                    <label for="body">Message:</label>
-                    <textarea id="body" name="body" required></textarea>
-                    
-                    </br>
-
-                    <fieldset>
-                        <legend>Type of Inquiry:</legend>
-                        <label><input type="radio" name="type" value="general" required> General</label>
-                        <label><input type="radio" name="type" value="technical"> Technical</label>
-                    </fieldset>
-                    
-                    </br>
-
-                    <fieldset>
-                        <legend>Topics of Interest:</legend>
-                        <label><input type="checkbox" name="topic" value="html"> HTML</label>
-                        <label><input type="checkbox" name="topic" value="java"> Java</label>
-                        <label><input type="checkbox" name="topic" value="pyhton"> Pyhton</label>
-                    </fieldset>
                 
-                    </br>
-
-                    <label for="date">Preferred Date:</label>
-                    <input type="date" id="date" name="date"><br><br>
-
-                    <input type="reset" value="Reset">
-                    <input type="submit" value="Submit">
-                </form>
-
             <p>
                 <h2> References </h2>
                 <ul>
