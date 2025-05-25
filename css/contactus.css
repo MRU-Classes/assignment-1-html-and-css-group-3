@@ -18,4 +18,9 @@ input, textarea{
 form{
     background-color: lightgray;
     border-radius: 8px;
+    
+}
+form{
+    background-color: beige;
+    padding: 20px;
 }

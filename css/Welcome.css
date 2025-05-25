@@ -1,6 +1,10 @@
 img{                                                
                                                                     /* https://www.freecodecamp.org/news/html-center-image-css-align-img-center-example/#:~:text=To%20center%20an%20image%20with%20CSS%20Grid%2C%20wrap%20the%20image,place%2Ditems%20property%20to%20center. */
     display: block;
-    margin: 0 auto;
-    width: 30%;
+    margin: auto;
+    width: 20%;
+}
+
+div{
+    background-color: black;
 }

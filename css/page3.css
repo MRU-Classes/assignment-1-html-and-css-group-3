@@ -21,6 +21,7 @@ nav ul li a:hover{
     background-color: aliceblue;
     color:black
 }
+
 h1{
     text-align: center;
     color: brown;
@@ -36,6 +37,19 @@ main, header{
 .top{
     background-color: beige;
     overflow: hidden;
+}
+
+#python_img{
+    float: right;
+    height: auto;
+    width: 20%;
+    display: block;
+   
+}
+
+#python_img img{
+    height: auto;
+    width: 100%;
 }
 
 
