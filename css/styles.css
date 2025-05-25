@@ -42,7 +42,15 @@ table{
     width: 85%;
     margin: 85px;
     border-collapse: collapse;                                                                  /*https://stackoverflow.com/questions/25062004/why-does-my-html-table-have-two-borders */
+    border: 2px solid;
+    
 }
+
+tr, td{                                                                                         /*https://wiki.whatwg.org/wiki/Presentational_elements_and_attributes*/
+    border: 1px;
+    border-style: solid;
+}
+
 
 tr:nth-child(odd){                                                                              /*https://www.geeksforgeeks.org/how-to-create-a-zebra-striped-table-with-css/*/
     background-color: rgba(220, 245, 230, 0.524);
@@ -50,6 +58,12 @@ tr:nth-child(odd){                                                              
 
 
 article{
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+div{
     padding: 20px;
     margin-left: 20px;
     margin-right: auto;
