@@ -10,7 +10,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color:rgba(255, 166, 0, 0.837);;
+    color:#d67747;
     text-decoration: none;
     padding: 17px 16px;
     text-align: center;
@@ -18,23 +18,23 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    background-color: aliceblue;
+    background-color: #e8cfc1;
     color:black
 }
 h1{
-    text-align: center;
-    color: brown;
+    text-align: center; 
+    color: #a87008;
 }
 
 main, header, footer{
-    background-color: beige;
+    background-color: #cbc2bd;
 }
 .current{
-    background-color: rgba(255, 166, 0, 0.837);
+    background-color: #d67747;
     color: black;
 }
 .top{
-    background-color: beige;
+    background-color: #cbc2bd;
     overflow: hidden;
 }
 
@@ -53,7 +53,7 @@ tr, td{                                                                         
 
 
 tr:nth-child(odd){                                                                              /*https://www.geeksforgeeks.org/how-to-create-a-zebra-striped-table-with-css/*/
-    background-color: rgba(220, 245, 230, 0.524);
+    background-color: lightgray;
 }
 
 
@@ -70,6 +70,10 @@ div{
 }
 
 a[target="_blank"], a{
-    color: brown;
+    color: #a87008;
     text-decoration: none;
+}
+
+#copyright{
+    font-weight: bold;
 }
