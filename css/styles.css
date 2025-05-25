@@ -10,7 +10,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color:black;
+    color:rgba(255, 166, 0, 0.837);;
     text-decoration: none;
     padding: 17px 16px;
     text-align: center;
@@ -23,17 +23,17 @@ nav ul li a:hover{
 }
 h1{
     text-align: center;
-    color:white;
+    color: brown;
 }
 
 main, header{
-    background-color: rgb(179, 174, 174);
+    background-color: beige;
 }
 .current{
-    background-color: bisque;
+    background-color: rgba(255, 166, 0, 0.837);
     color: black;
 }
 .top{
-    background-color: grey;
+    background-color: beige;
     overflow: hidden;
 }
